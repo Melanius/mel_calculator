@@ -70,7 +70,7 @@ const Calculator = () => {
       setDisplay(String(result));
       setFormula(formula + display + ' = ');
       setCalculated(true);
-    } catch (error) {
+    } catch (_) {
       setDisplay('Error');
     }
   };
